@@ -1,0 +1,108 @@
+/* ---------------- Tag styles ---------------- */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: semi-condensed;
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Arial';
+}
+
+img {
+    width: 25%;  
+    opacity: 0.5;
+}
+
+img:hover {
+    width: 25%;  
+    opacity: 1.0;
+}
+
+/* -------------- Style classes --------------- */
+.active-tab {
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.active-tab h1 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#greybg {
+    background-color: lightgrey;
+}
+
+
+.col-md-6 {
+    background-color: white;
+    /* width: 100%;
+    text-align: left; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline-block;
+    /* padding: 20px; */
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    cursor: pointer;
+    background: #fff;
+    /* border-radius: 3px; */
+    
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ul {
+    margin-top: 5%;
+    margin-left: 90%;
+} */
+
+nav ul li {
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    /* background-color: lightgray; */
+}
+
+/* -------------- Style IDs ---------------- */
+#tealtext {
+    color: #4aaaa5;
+    font-weight: 900;
+}
+
+#whitetext {
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+}
+
+#margin {
+    /* padding: 10px;
+    margin: 10px; */
+    margin-block-start: 30px;
+    margin-block-end: 20px;
+    /* align-content: right; */
+}
+
