@@ -42,14 +42,30 @@ img:hover {
     background-color: lightgrey;
 }
 
-
-.col-md-6 {
+.col-4 {
     background-color: white;
-    /* width: 100%;
-    text-align: left; */
+    /* width: fit-content; */
+    text-align: left;
     /* display: flex; */
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 10px;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.col-7 {
+    background-color: white;
+    /* width: fit-content; */
+    text-align: left;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px;
+    padding: 10px; */
+    margin: 10px;
+    padding: 30px;
+    padding-left: 60px;
 }
 
 .nav-item {
@@ -83,6 +99,8 @@ nav ul li {
 
 .container {
     width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
     /* background-color: lightgray; */
 }
 
