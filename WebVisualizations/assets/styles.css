@@ -1,8 +1,13 @@
 /* ---------------- Tag styles ---------------- */
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-stretch: semi-condensed;
     font-weight: 900;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
 }
 
 p {
