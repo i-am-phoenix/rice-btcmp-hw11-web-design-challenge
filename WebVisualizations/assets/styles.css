@@ -11,19 +11,15 @@ p {
     font-size: medium;
 }
 
-img {
+a img {
     width: 40%;  
     opacity: 0.5;
 }
 
-img:hover {
+a img:hover {
     /* width: 40%;   */
     opacity: 1.0;
 }
-
-/* row {
-    margin: 0px;
-} */
 
 a:link { 
     text-decoration: none; 
@@ -64,39 +60,21 @@ nav ul li {
     
 }
 
-.col-4 {
+.col, .col-4, .col-7 {
     background-color: white;
-    /* width: fit-content; */
     text-align: left;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
     margin: 10px;
     padding: 30px;
 }
 
-.col-7 {
+.col-md-6 {
     background-color: white;
-    /* width: fit-content; */
-    text-align: left;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* margin: 10px;
-    padding: 10px; */
-    margin: 10px;
-    padding: 30px;
 }
 
 .nav-item {
     display: inline-block;
-    /* padding: 20px; */
-    /* margin-right: 5px;
-    margin-left: 5px; */
     cursor: pointer;
     background: #fff;
-    /* border-radius: 3px; */
-    
 }
 
 .headernav {
@@ -114,14 +92,23 @@ nav ul li {
 
 .container {
     width: 100%;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    /* background-color: lightgray; */
+    /* padding-top: 60px;
+    padding-bottom: 30px; */
+    background-color: lightgray;
 }
 
+.row-md {
+    background-color: white;
+    width: max-content;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
 /* -------------- Style IDs ---------------- */
 #greybg {
     background-color: lightgrey;
+    padding: 20px;
 }
 
 #tealtext {
