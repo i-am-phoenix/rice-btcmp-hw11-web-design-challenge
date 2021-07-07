@@ -4,6 +4,10 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h3 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -58,19 +62,23 @@ th, td {
     padding: 8px;
   }
   
-tr:nth-child(odd) {
+.dataframe tr:nth-child(odd) {
     background: lightgray;
     border-bottom: 1px darkgray;
 }
 
-tr:nth-child(even) {
+.dataframe tr:nth-child(even) {
     background: white;
     border-bottom: 1px darkgray;
 }
 
-th {
+.dataframe th {
     border-bottom: 2px darkgrey;
     background-color: white;
+}
+
+.dataframe {
+    font-size: small;
 }
 
 /* -------------- Style classes --------------- */
