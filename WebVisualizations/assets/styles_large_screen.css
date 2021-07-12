@@ -77,6 +77,15 @@ th, td {
     background-color: white;
 }
 
+@media { max-width: 600px;
+    .dataframe th {
+        border-bottom: 2px darkgrey;
+        background-color: white;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+}
+
 .dataframe {
     font-size: small;
 }

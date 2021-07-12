@@ -1,0 +1,183 @@
+/* ---------------- Tag styles ---------------- */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Arial';
+    text-align: justify;
+    font-size: medium;
+}
+
+a img {
+    width: 40%;  
+    opacity: 0.5;
+}
+
+a img:hover {
+    /* width: 40%;   */
+    opacity: 1.0;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px;
+    background-color: white;
+  }
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+.dataframe tr:nth-child(odd) {
+    background: lightgray;
+    border-bottom: 1px darkgray;
+}
+
+.dataframe tr:nth-child(even) {
+    background: white;
+    border-bottom: 1px darkgray;
+}
+
+.dataframe th {
+    border-bottom: 2px darkgrey;
+    background-color: white;
+}
+
+@media { max-width: 600px;
+    .dataframe th {
+        border-bottom: 2px darkgrey;
+        background-color: white;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+}
+
+.dataframe {
+    font-size: small;
+}
+
+/* -------------- Style classes --------------- */
+.active-tab {
+    background-color: #4aaaa5;
+    color: white;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.active-tab h1 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.col, .col-4, .col-7 {
+    background-color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+}
+
+.col-md-6 {
+    background-color: white;
+}
+
+.nav-item {
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+}
+
+.headernav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: rgb(27, 27, 27);
+}
+
+.nav-link:hover {
+    color: #4aaaa5;
+}
+
+.container {
+    width: 100%;
+    /* padding-top: 60px;
+    padding-bottom: 30px; */
+    background-color: lightgray;
+}
+
+.row-md {
+    background-color: white;
+    width: max-content;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
+
+
+/* -------------- Style IDs ---------------- */
+#greybg {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+#tealtext {
+    color: #4aaaa5;
+    font-weight: 900;
+}
+
+#whitetext {
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+}
+
+#margin {
+    /* padding: 10px;
+    margin: 10px; */
+    margin-block-start: 30px;
+    margin-block-end: 20px;
+    /* align-content: right; */
+}
+
