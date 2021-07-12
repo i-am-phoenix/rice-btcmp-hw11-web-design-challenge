@@ -15,30 +15,62 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <body>
-<section class="headernav">
-    <div class="active-tab">
-        <a href="index.html" target="_self"><h1 id="whitetext">Latitude</h1></a>
-    </div>
-    <nav class="navbar">
-        <ul class="nav nav-pills">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="temperature.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+    <section class="headernav">
+        <div class="active-tab">
+            <a href="index.html" target="_self"><h1 id="whitetext">Latitude</h1></a>
+        </div>
+        <nav class="navbar" id="large-screen">
+            <ul class="nav nav-pills">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="comparisons.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <nav class="navbar navbar-dark" id="small-screen" style="background-color: #4aaaa5;">
+            <!-- Brand -->
+            <!-- <a href="index.html" target="_self"><h1 id="whitetext">Latitude</h1></a> -->
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle topnav" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" style="background-color: #4aaaa5;">
+                        <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+              </ul>
             </div>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="comparisons.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-            </li>
-        </ul>
-    </nav>
-</section>   
+          </nav>
+        
+    </section>      
     
 
 <section id="greybg">

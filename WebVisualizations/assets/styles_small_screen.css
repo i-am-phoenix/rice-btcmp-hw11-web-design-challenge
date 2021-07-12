@@ -46,9 +46,9 @@ a:active {
     text-decoration: none; 
 }
 
-nav ul li {
+/* nav ul li {
     display: inline-block;
-}
+} */
 
 table {
     border-collapse: collapse;
@@ -85,7 +85,7 @@ th, td {
 .active-tab {
     background-color: #4aaaa5;
     color: white;
-    width: fit-content;
+    width:100%;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 1px;
@@ -100,22 +100,30 @@ th, td {
     
 }
 
-.col, .col-4, .col-7 {
+.col, .col-md-4, .col-md-7 {
     background-color: white;
     text-align: left;
     margin: 10px;
     padding: 30px;
 }
 
-.col-md-6 {
+.col-md-6 , .col-xs-6 {
     background-color: white;
 }
 
 .nav-item {
     display: inline-block;
+    /* float: none; */
+    /* display: flex; */
+    /* flex: 1; */
     cursor: pointer;
-    background: #fff;
+    /* background: #fff; */
 }
+
+.navbar-nav > .active > a {
+    color: white;
+    background-color: lightgray;    
+  }
 
 .headernav {
     display: flex;
@@ -123,7 +131,7 @@ th, td {
 }
 
 .nav-link {
-    color: rgb(27, 27, 27);
+    /* color: black; */
 }
 
 .nav-link:hover {
@@ -170,5 +178,9 @@ th, td {
     margin-block-start: 30px;
     margin-block-end: 20px;
     /* align-content: right; */
+}
+
+#large-screen {
+    display: none;
 }
 
