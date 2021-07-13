@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wind Speed</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen and (min-width: 600px)" href="WebVisualizations/assets/styles_large_screen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="WebVisualizations/assets/styles_small_screen.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="WebVisualizations/assets/styles_large_screen.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="WebVisualizations/assets/styles_small_screen.css">
 </head>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -76,34 +76,70 @@
 <section id="greybg">
     <div class="container">
         <div class="row">
-            <div class="col-7">
+            <div class="col-md-7 col-xs-6">
                 <!-- <br> -->
                     <h2 id="tealtext">Summary: Latitude vs Wind Speed</h2>
                     <hr>
                     <a href="WebVisualizations/visualizations/wind_speed.png" alt="wind_speed" target="_blank">
-                        <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind_speed" style="float: left;margin: 5px;opacity: 100%; width:30%;">
+                        <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind_speed" class="main-img">
                     </a>
                     <p>
-                        The purpose of the projet was to......
+                        Analysis of weather information for 547 cities around the world was carried out. Our goal was to understand impact of city's proximity to the equator on its weather.
                     </p>
+                    <p>We can observe that maximum wind speeds in the Northern hemisphere tend to be higher than those in the Southern Hemisphere. </p>  
+                    <p>  Wind speeds increase away from the equator in the Northern hemisphere much more quickly than in the South, where only a mild increase can be seen</p>
+                    <p>More samples are available from the Northern Hemisphere.
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-xs-6">
                 <!-- <br> -->
                     <h2 id="tealtext">Visualizations</h2>
                     <hr>
-                    <a href="temperature.html">
-                        <img src="WebVisualizations/visualizations/temperature.png" alt="temperature">
-                    </a>
-                    <a href="humidity.html">
-                        <img src="WebVisualizations/visualizations/humidity.png" alt="humidity" width="50%">
-                    </a>
-                    <br>
-                    <a href="cloudiness.html">
-                        <img src="WebVisualizations/visualizations/cloudiness.png" alt="cloudiness">
-                    </a>
-                    <a href="windspeed.html">
-                        <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind speed"> 
-                    </a>
+                    <div class="row" id="small-screen">
+                        <div class="col col-xs-6">
+                            <a href="temperature.html">
+                                <img src="WebVisualizations/visualizations/temperature.png" alt="temperature">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="humidity.html">
+                                <img src="WebVisualizations/visualizations/humidity.png" alt="humidity">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="cloudiness.html">
+                                <img src="WebVisualizations/visualizations/cloudiness.png" alt="cloudiness">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="windspeed.html">
+                                <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind speed"> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" id="large-screen">
+                        <div class="col col-xs-6">
+                            <a href="temperature.html">
+                                <img src="WebVisualizations/visualizations/temperature.png" alt="temperature">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="humidity.html">
+                                <img src="WebVisualizations/visualizations/humidity.png" alt="humidity">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" id="large-screen">
+                        <div class="col">
+                            <a href="cloudiness.html">
+                                <img src="WebVisualizations/visualizations/cloudiness.png" alt="cloudiness">
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="windspeed.html">
+                                <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind speed"> 
+                            </a>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>

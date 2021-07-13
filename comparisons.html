@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" media="screen and (min-width: 600px)" href="WebVisualizations/assets/styles_large_screen.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="WebVisualizations/assets/styles_small_screen.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="WebVisualizations/assets/styles_large_screen.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="WebVisualizations/assets/styles_small_screen.css">
 </head>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@
             </ul>
         </nav>
     
-        <nav class="navbar navbar-dark" id="small-screen" style="background-color: #4aaaa5;">
+        <nav class="navbar navbar-dark navbar-right" id="small-screen" style="background-color: #4aaaa5;">
             <!-- Brand -->
             <!-- <a href="index.html" target="_self"><h1 id="whitetext">Latitude</h1></a> -->
           
@@ -82,13 +82,13 @@
         Click any plot to get an in-depth analysis.
     </p>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-6">
             <h3 id="tealtext">vs. Max Temperature</h3>
                 <a href="temperature.html">
                     <img src="WebVisualizations/visualizations/temperature.png" alt="temperature">
                 </a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-6">
             <h3 id="tealtext">vs. Humidity</h3>
                 <a href="humidity.html">
                     <img src="WebVisualizations/visualizations/humidity.png" alt="humidity">
@@ -96,13 +96,13 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-6">
             <h3 id="tealtext">vs. Cloudiness</h3>
             <a href="cloudiness.html">
                 <img src="WebVisualizations/visualizations/cloudiness.png" alt="cloudiness">
             </a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-xs-6">
             <h3 id="tealtext">vs. Wind Speed</h3>
             <a href="windspeed.html">
                 <img src="WebVisualizations/visualizations/wind_speed.png" alt="wind speed">
